@@ -1,0 +1,21 @@
+.calculator-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #EBE6F3;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+.buttons-container {
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid #EBE6F3;
+}
+
+#clear {
+    grid-area: 1 / span 4;
+    background-color: #F34E42;
+}
